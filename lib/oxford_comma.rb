@@ -5,4 +5,3 @@ def oxford_comma(array)
   ch<<(" and #{array[-1]}")
   return  ch
 end
-
