@@ -1,7 +1,7 @@
 def oxford_comma(array)
   ch=array.join(", ")
   ar2=ch.split(", #{array[-1]}")
-  ch=array.join()
+  ch=array.join(", ")
   ch<<("and #{array[-1]}")
   puts ch
 end
