@@ -5,4 +5,4 @@ def oxford_comma(array)
   ch<<(array[-1])
   puts ch
 end
-oxford_comma(["test","tes2","2"])
+oxford_comma(["test","tes2","gfh2"])
