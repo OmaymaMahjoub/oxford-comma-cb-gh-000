@@ -4,4 +4,4 @@ def oxford_comma(array)
   ch=ar2.join(" and")
   puts ch
 end
-oxford_comma(["test","tes2",2])
+oxford_comma(["test","tes2","2"])
