@@ -1,8 +1,6 @@
 def oxford_comma(array)
   if array.size<=2
     ch=array.join(" and ")
-  elsif array.size=1
-    return array[0]
   else
     ch=array.join(", ")
     ar2=ch.split(", #{array[-1]}")
